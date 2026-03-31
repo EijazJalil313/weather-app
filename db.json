@@ -1,0 +1,532 @@
+{
+    "cities": [
+        {
+            "id": 1,
+            "name": "Dhaka",
+            "stateCode": "",
+            "countryCode": "BD",
+            "query": "Dhaka,BD"
+        },
+        {
+            "id": 2,
+            "name": "Tokyo",
+            "stateCode": "",
+            "countryCode": "JP",
+            "query": "Tokyo,JP"
+        },
+        {
+            "id": 3,
+            "name": "New York",
+            "stateCode": "NY",
+            "countryCode": "US",
+            "query": "New York,NY,US"
+        },
+        {
+            "id": 4,
+            "name": "Karachi",
+            "stateCode": "",
+            "countryCode": "PK",
+            "query": "Karachi,PK"
+        },
+        {
+            "id": 5,
+            "name": "Berlin",
+            "stateCode": "",
+            "countryCode": "DE",
+            "query": "Berlin,DE"
+        }
+    ],
+    "current": [
+        {
+            "id": 1,
+            "cityId": 1,
+            "cityName": "Dhaka",
+            "tempC": 29,
+            "condition": "Sunny",
+            "windKph": 19,
+            "humidity": 22
+        },
+        {
+            "id": 2,
+            "cityId": 2,
+            "cityName": "Tokyo",
+            "tempC": 26,
+            "condition": "Rain",
+            "windKph": 15,
+            "humidity": 28
+        },
+        {
+            "id": 3,
+            "cityId": 3,
+            "cityName": "NY",
+            "tempC": 31,
+            "condition": "Partly Cloudy",
+            "windKph": 17,
+            "humidity": 25
+        },
+        {
+            "id": 4,
+            "cityId": 4,
+            "cityName": "Karachi",
+            "tempC": 33,
+            "condition": "Sunny",
+            "windKph": 21,
+            "humidity": 58
+        },
+        {
+            "id": 5,
+            "cityId": 5,
+            "cityName": "Berlin",
+            "tempC": 14,
+            "condition": "Cloudy",
+            "windKph": 12,
+            "humidity": 71
+        }
+    ],
+    "forecast": [
+        {
+            "id": 1,
+            "cityId": 1,
+            "days": [
+                {
+                    "dow": "Sun",
+                    "tempC": 28,
+                    "condition": "Storm"
+                },
+                {
+                    "dow": "Mon",
+                    "tempC": 17,
+                    "condition": "Rain"
+                },
+                {
+                    "dow": "Tue",
+                    "tempC": 20,
+                    "condition": "Partly Cloudy"
+                },
+                {
+                    "dow": "Wed",
+                    "tempC": 29,
+                    "condition": "Storm"
+                },
+                {
+                    "dow": "Thu",
+                    "tempC": 22,
+                    "condition": "Night Cloudy"
+                },
+                {
+                    "dow": "Fri",
+                    "tempC": 16,
+                    "condition": "Night Rain"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "cityId": 2,
+            "days": [
+                {
+                    "dow": "Sun",
+                    "tempC": 22,
+                    "condition": "Rain"
+                },
+                {
+                    "dow": "Mon",
+                    "tempC": 19,
+                    "condition": "Drizzle"
+                },
+                {
+                    "dow": "Tue",
+                    "tempC": 21,
+                    "condition": "Cloudy"
+                },
+                {
+                    "dow": "Wed",
+                    "tempC": 24,
+                    "condition": "Partly Cloudy"
+                },
+                {
+                    "dow": "Thu",
+                    "tempC": 23,
+                    "condition": "Rain"
+                },
+                {
+                    "dow": "Fri",
+                    "tempC": 20,
+                    "condition": "Night Rain"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "cityId": 3,
+            "days": [
+                {
+                    "dow": "Sun",
+                    "tempC": 30,
+                    "condition": "Sunny"
+                },
+                {
+                    "dow": "Mon",
+                    "tempC": 27,
+                    "condition": "Partly Cloudy"
+                },
+                {
+                    "dow": "Tue",
+                    "tempC": 29,
+                    "condition": "Cloudy"
+                },
+                {
+                    "dow": "Wed",
+                    "tempC": 31,
+                    "condition": "Sunny"
+                },
+                {
+                    "dow": "Thu",
+                    "tempC": 28,
+                    "condition": "Rain"
+                },
+                {
+                    "dow": "Fri",
+                    "tempC": 26,
+                    "condition": "Night Cloudy"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "cityId": 4,
+            "days": [
+                { "dow": "Sun", "tempC": 34, "condition": "Sunny" },
+                { "dow": "Mon", "tempC": 33, "condition": "Partly Cloudy" },
+                { "dow": "Tue", "tempC": 32, "condition": "Sunny" },
+                { "dow": "Wed", "tempC": 33, "condition": "Rain" },
+                { "dow": "Thu", "tempC": 31, "condition": "Partly Cloudy" },
+                { "dow": "Fri", "tempC": 30, "condition": "Night Cloudy" }
+            ]
+        },
+        {
+            "id": 5,
+            "cityId": 5,
+            "days": [
+                { "dow": "Sun", "tempC": 13, "condition": "Cloudy" },
+                { "dow": "Mon", "tempC": 12, "condition": "Rain" },
+                { "dow": "Tue", "tempC": 14, "condition": "Partly Cloudy" },
+                { "dow": "Wed", "tempC": 15, "condition": "Cloudy" },
+                { "dow": "Thu", "tempC": 16, "condition": "Partly Cloudy" },
+                { "dow": "Fri", "tempC": 14, "condition": "Night Rain" }
+            ]
+        }
+    ],
+    "aqi": [
+        {
+            "id": 1,
+            "cityId": 1,
+            "status": "Good",
+            "note": "A perfect day for a walk!",
+            "metrics": {
+                "pm2_5": 9.3,
+                "pm10": 12.2,
+                "so2": 4.8,
+                "no2": 4.6,
+                "o3": 6.5,
+                "co": 0.9
+            }
+        },
+        {
+            "id": 2,
+            "cityId": 4,
+            "status": "Moderate",
+            "note": "Sensitive groups should take care.",
+            "metrics": {
+                "pm2_5": 42.1,
+                "pm10": 78.4,
+                "so2": 9.2,
+                "no2": 18.6,
+                "o3": 21.3,
+                "co": 1.2
+            }
+        },
+        {
+            "id": 3,
+            "cityId": 5,
+            "status": "Fair",
+            "note": "Nice conditions for most activities.",
+            "metrics": {
+                "pm2_5": 14.6,
+                "pm10": 26.2,
+                "so2": 3.1,
+                "no2": 11.4,
+                "o3": 19.8,
+                "co": 0.6
+            }
+        }
+    ],
+    "sun": [
+        {
+            "id": 1,
+            "cityId": 1,
+            "sunrise": "4:40 AM",
+            "sunset": "6:53 PM"
+        },
+        {
+            "id": 2,
+            "cityId": 2,
+            "sunrise": "4:47 AM",
+            "sunset": "6:49 PM"
+        },
+        {
+            "id": 3,
+            "cityId": 3,
+            "sunrise": "5:41 AM",
+            "sunset": "7:35 PM"
+        },
+        {
+            "id": 4,
+            "cityId": 4,
+            "sunrise": "5:54 AM",
+            "sunset": "6:32 PM"
+        },
+        {
+            "id": 5,
+            "cityId": 5,
+            "sunrise": "6:02 AM",
+            "sunset": "7:24 PM"
+        }
+    ],
+    "rainfall": [
+        {
+            "id": 1,
+            "cityId": 1,
+            "months": [
+                {
+                    "month": "Jan",
+                    "rain": 60,
+                    "sun": 28
+                },
+                {
+                    "month": "Feb",
+                    "rain": 52,
+                    "sun": 26
+                },
+                {
+                    "month": "Mar",
+                    "rain": 66,
+                    "sun": 30
+                },
+                {
+                    "month": "Apr",
+                    "rain": 74,
+                    "sun": 34
+                },
+                {
+                    "month": "May",
+                    "rain": 80,
+                    "sun": 32
+                },
+                {
+                    "month": "Jun",
+                    "rain": 88,
+                    "sun": 25
+                },
+                {
+                    "month": "Jul",
+                    "rain": 92,
+                    "sun": 22
+                },
+                {
+                    "month": "Aug",
+                    "rain": 90,
+                    "sun": 24
+                },
+                {
+                    "month": "Sep",
+                    "rain": 84,
+                    "sun": 28
+                },
+                {
+                    "month": "Oct",
+                    "rain": 76,
+                    "sun": 30
+                },
+                {
+                    "month": "Nov",
+                    "rain": 68,
+                    "sun": 26
+                },
+                {
+                    "month": "Dec",
+                    "rain": 62,
+                    "sun": 24
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "cityId": 2,
+            "months": [
+                {
+                    "month": "Jan",
+                    "rain": 45,
+                    "sun": 22
+                },
+                {
+                    "month": "Feb",
+                    "rain": 40,
+                    "sun": 24
+                },
+                {
+                    "month": "Mar",
+                    "rain": 50,
+                    "sun": 26
+                },
+                {
+                    "month": "Apr",
+                    "rain": 56,
+                    "sun": 28
+                },
+                {
+                    "month": "May",
+                    "rain": 62,
+                    "sun": 30
+                },
+                {
+                    "month": "Jun",
+                    "rain": 70,
+                    "sun": 26
+                },
+                {
+                    "month": "Jul",
+                    "rain": 78,
+                    "sun": 24
+                },
+                {
+                    "month": "Aug",
+                    "rain": 74,
+                    "sun": 22
+                },
+                {
+                    "month": "Sep",
+                    "rain": 66,
+                    "sun": 24
+                },
+                {
+                    "month": "Oct",
+                    "rain": 58,
+                    "sun": 26
+                },
+                {
+                    "month": "Nov",
+                    "rain": 52,
+                    "sun": 24
+                },
+                {
+                    "month": "Dec",
+                    "rain": 48,
+                    "sun": 22
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "cityId": 3,
+            "months": [
+                {
+                    "month": "Jan",
+                    "rain": 36,
+                    "sun": 30
+                },
+                {
+                    "month": "Feb",
+                    "rain": 32,
+                    "sun": 32
+                },
+                {
+                    "month": "Mar",
+                    "rain": 38,
+                    "sun": 34
+                },
+                {
+                    "month": "Apr",
+                    "rain": 44,
+                    "sun": 36
+                },
+                {
+                    "month": "May",
+                    "rain": 52,
+                    "sun": 34
+                },
+                {
+                    "month": "Jun",
+                    "rain": 58,
+                    "sun": 28
+                },
+                {
+                    "month": "Jul",
+                    "rain": 62,
+                    "sun": 26
+                },
+                {
+                    "month": "Aug",
+                    "rain": 60,
+                    "sun": 27
+                },
+                {
+                    "month": "Sep",
+                    "rain": 54,
+                    "sun": 30
+                },
+                {
+                    "month": "Oct",
+                    "rain": 48,
+                    "sun": 32
+                },
+                {
+                    "month": "Nov",
+                    "rain": 42,
+                    "sun": 30
+                },
+                {
+                    "month": "Dec",
+                    "rain": 38,
+                    "sun": 30
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "cityId": 4,
+            "months": [
+                { "month": "Jan", "rain": 14, "sun": 40 },
+                { "month": "Feb", "rain": 12, "sun": 45 },
+                { "month": "Mar", "rain": 10, "sun": 55 },
+                { "month": "Apr", "rain": 6, "sun": 60 },
+                { "month": "May", "rain": 4, "sun": 65 },
+                { "month": "Jun", "rain": 18, "sun": 55 },
+                { "month": "Jul", "rain": 90, "sun": 35 },
+                { "month": "Aug", "rain": 110, "sun": 30 },
+                { "month": "Sep", "rain": 35, "sun": 45 },
+                { "month": "Oct", "rain": 10, "sun": 55 },
+                { "month": "Nov", "rain": 6, "sun": 50 },
+                { "month": "Dec", "rain": 12, "sun": 42 }
+            ]
+        },
+        {
+            "id": 5,
+            "cityId": 5,
+            "months": [
+                { "month": "Jan", "rain": 42, "sun": 18 },
+                { "month": "Feb", "rain": 34, "sun": 22 },
+                { "month": "Mar", "rain": 38, "sun": 28 },
+                { "month": "Apr", "rain": 36, "sun": 36 },
+                { "month": "May", "rain": 54, "sun": 44 },
+                { "month": "Jun", "rain": 70, "sun": 40 },
+                { "month": "Jul", "rain": 74, "sun": 38 },
+                { "month": "Aug", "rain": 62, "sun": 36 },
+                { "month": "Sep", "rain": 48, "sun": 30 },
+                { "month": "Oct", "rain": 44, "sun": 24 },
+                { "month": "Nov", "rain": 46, "sun": 18 },
+                { "month": "Dec", "rain": 50, "sun": 16 }
+            ]
+        }
+    ]
+}
