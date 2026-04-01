@@ -79,7 +79,6 @@ function groupForecastDays(list) {
         const arr = byDate.get(key);
         if (!arr || arr.length === 0) continue;
 
-        // Pick the entry closest to 12:00 local time
         const targetMinutes = 12 * 60;
         let best = arr[0];
         let bestDelta = Infinity;
@@ -111,7 +110,6 @@ function groupForecastDays(list) {
         });
     }
 
-    // Prefer showing today + next days (limit 6 like the UI)
     return days.slice(0, 6);
 }
 

@@ -14,7 +14,6 @@ const ITEMS = [
 export function LeftRail() {
     return (
         <nav aria-label="Primary" className="relative w-[68px]">
-            {/* Top active section */}
             <div
                 className={cn(
                     "relative z-20 flex h-[76px] w-full items-center justify-center",
@@ -24,8 +23,6 @@ export function LeftRail() {
                 )}
             >
                 <LayoutGrid className="h-6 w-6 text-white" aria-hidden="true" strokeWidth={2.5} />
-
-                {/* Scoop transition into blue rail */}
                 <div className="absolute -bottom-6 right-0 h-6 w-6 bg-weather-secondaryCard/90">
                     <div className="h-full w-full rounded-tr-[24px] bg-weather-primaryCard" />
                 </div>
